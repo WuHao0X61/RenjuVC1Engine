@@ -1,14 +1,10 @@
 #pragma once
 
+#include <stdint.h>
+
 using namespace std;
 
-#define IN_LINUX
-
-#ifdef IN_LINUX
-#define ull unsigned long long
-#else
-#define ull unsigned __int64
-#endif
+#define ull uint64_t
 
 #define unknown 20000
 #define winMax 10000
